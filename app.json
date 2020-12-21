@@ -16,12 +16,12 @@
             "value": "false"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/mixool/kuhero/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/moosetk/kuhero/blob/master/etc/CADDYIndexPage.md",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         },
         "CADDYCONFIG": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/moosetk/kuhero/master/etc/Caddyfile"
         },
         "ROBOTS": {
             "description": "ROBOTS爬虫规则开关，默认开启，修改为false时候关闭",
@@ -29,7 +29,7 @@
         },
         "ROBOTSCONFIG": {
             "description": "自定义ROBOTS爬虫配置，默认配置禁止所有爬虫",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/robots.txt"
+            "value": "https://raw.githubusercontent.com/moosetk/kuhero/master/etc/robots.txt"
         },
         "SSEnable": {
             "description": "SS开关，默认启用，修改为false时关闭",
@@ -37,11 +37,11 @@
         },
         "SSENCYPT": {
             "description": "SS加密方式",
-            "value": "chacha20-ietf-poly1305"
+            "value": "rc4-md5"
         },
         "SSPATH": {
             "description": "SS路径",
-            "value": "/sspath"
+            "value": "/ss"
         },
         "GOSTEnable": {
             "description": "GOST开关，默认启用，修改为false时关闭",
@@ -69,7 +69,7 @@
         },
         "VMESSPATH": {
             "description": "V2RAY使用VMESS时的路径",
-            "value": "/vmesspath"
+            "value": "/vmess"
         },
         "VLESSPATH": {
             "description": "V2RAY使用VLESS时的路径",
@@ -77,14 +77,14 @@
         },
         "AUUID": {
             "description": "V2RAY使用的UUID,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+            "value": "c95ef1d4-f3ac-1234-1234-234a37dda068"
         },
         "V2RAYCONFIG": {
             "description": "自定义网络地址读取配置运行V2RAY，不熟悉V2RAY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/v2ray.json"
+            "value": "https://raw.githubusercontent.com/moosetk/kuhero/master/etc/v2ray.json"
         }
     },
-    "website": "https://github.com/mixool/kuhero",
-    "repository": "https://github.com/mixool/kuhero",
+    "website": "https://github.com/moosetk/kuhero",
+    "repository": "https://github.com/moosetk/kuhero",
     "stack": "container"
 }
